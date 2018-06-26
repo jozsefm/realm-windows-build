@@ -1,4 +1,5 @@
-# Issue building Realm.js from source on Windows
+# Issue building Realm.js from source on Windows  
+reported here: [https://github.com/realm/realm-js/issues/1893](https://github.com/realm/realm-js/issues/1893)
 
 ## Steps to reproduce
 - git clone this repo `https://github.com/jozsefm/realm-windows-build.git` 
