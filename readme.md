@@ -1,7 +1,7 @@
 # Issue building Realm.js from source on Windows
 
 ## Steps to reproduce
-- git clone this repo  
+- git clone this repo `https://github.com/jozsefm/realm-windows-build.git` 
 - cd into it  
 - execute `yarn`
 
