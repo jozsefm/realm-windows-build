@@ -1,20 +1,21 @@
-#Issue building Realm.js from source on Windows
+# Issue building Realm.js from source on Windows  
+reported here: [https://github.com/realm/realm-js/issues/1893](https://github.com/realm/realm-js/issues/1893)
 
-##Steps to reproduce
-- git clone this repo  
+## Steps to reproduce
+- git clone this repo `https://github.com/jozsefm/realm-windows-build.git` 
 - cd into it  
 - execute `yarn`
 
-###Remarks
+## Remarks
 - This is likely a regression or breaking change as it doesn't happen with versions earlier than `2.3.0`
 - I use electron-builder only to automatically start the rebuild. It has nothing to do with the issue itself.
 
-##Environment
+## Environment
 - Windows 10
 - Node 9.9.0
 - VS 2017 Community
 
-##The error:
+## The error:
 ~~~~
 $ install-app-deps
   • please use as subcommand: electron-builder install-app-deps
