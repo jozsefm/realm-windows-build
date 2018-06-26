@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "postinstall": "install-app-deps"
+  },
+  "build": {
+    "appId": "build.realm.on.windows",
+    "productName": "Reproduction",
+    "directories": {
+      "output": "builds"
+    },
+    "electronVersion": "2.0.3"
+  },
+  "dependencies": {
+    "realm": "2.3.0"
+  },
+  "devDependencies": {
+    "electron": "2.0.3",
+    "electron-builder": "^20.15.1"
+  },
+  "name": "electron",
+  "version": "1.0.0",
+  "author": "József Miskolczy",
+  "main": "index.js",
+  "private": true
+}
