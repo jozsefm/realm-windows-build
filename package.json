@@ -16,9 +16,8 @@
   "devDependencies": {
     "electron-builder": "^20.15.1"
   },
-  "name": "electron",
+  "name": "realm-windows-build",
   "version": "1.0.0",
   "author": "József Miskolczy",
-  "main": "index.js",
-  "private": true
+  "main": "index.js"
 }
